@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Hexagon background with gradient -->
+    <path android:pathData="M54,20 L88.5,40 L88.5,68 L54,88 L19.5,68 L19.5,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="19.5"
+                android:startY="54"
+                android:endX="88.5"
+                android:endY="54">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="1" android:color="#FFFF9800"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Inner white diamond shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35 L65,45 L54,55 L43,45 Z"/>
+
+    <!-- Text "maily" -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,95 L54,98"
+        android:strokeWidth="1"
+        android:strokeColor="#000000"/>
+</vector> 
